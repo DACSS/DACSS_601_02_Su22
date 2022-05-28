@@ -12,7 +12,23 @@
       <link>https://github.com/DACSS/dacss_course_website</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 28 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Data Import</title>
+      <dc:creator>Sean Conway</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/httpsrpubscomspconway910890</link>
+      <description>importing data with R</description>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/httpsrpubscomspconway910890</guid>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More data import/dplyr</title>
+      <dc:creator>Sean Conway</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/httpsrpubscomspconway911852</link>
+      <description>More data import and an introduction to the dplyr package.</description>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/httpsrpubscomspconway911852</guid>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Welcome to DACSS 601</title>
       <dc:creator>Sean Conway</dc:creator>
