@@ -1,15 +1,11 @@
 ---
-title: "Instructor Name"
+title: "Sean Conway"
 image: "images/DACSS_Round_Network.png"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://github.com/sp-conway"
   - label: Email
-    url: "mailto:example@email.com"
+    url: "spconway@umass.edu"
 output:
   postcards::jolla
 ---

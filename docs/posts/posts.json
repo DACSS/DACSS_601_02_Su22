@@ -2,20 +2,39 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
-    "description": "Welcome to DACSS 601: Foundations of Data Science. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
     "author": [
       {
-        "name": "Meredith Rolfe",
-        "url": "http://umass.edu/sbs/dacss"
+        "name": "Sean Conway",
+        "url": {}
       }
     ],
-    "date": "2021-03-25",
+    "date": "2022-05-28",
     "categories": [
       "welcome"
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-06-23T08:31:54+05:30",
-    "input_file": {}
+    "last_modified": "2022-05-28T10:13:11-04:00",
+    "input_file": "welcome.knit.md"
+  },
+  {
+    "path": "posts/httpsrpubscomspconway849705/",
+    "title": "Test Post Round 2",
+    "description": "A new article created using the Distill format.",
+    "author": [
+      {
+        "name": "Sean Conway",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-28",
+    "categories": [],
+    "contents": "\n\n\nlibrary(dplyr)\nlibrary(ggplot2)\ndata(storms)\nggplot(storms, aes(wind,pressure))+\n  geom_point(alpha=.5,col=\"blue\")+\n  geom_abline(slope=1,intercept=0)+\n  facet_wrap(vars(status))\n\n\n\n\n\n\n\n",
+    "preview": "posts/httpsrpubscomspconway849705/distill-preview.png",
+    "last_modified": "2022-05-28T10:12:54-04:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
   }
 ]

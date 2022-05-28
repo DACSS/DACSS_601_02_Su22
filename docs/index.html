@@ -2365,7 +2365,7 @@ function init_posts_list() {
     var src = $(img).attr('data-src');
     if (src) {
       $(img).attr('src', src);
-      $(img).load(function() {
+      $(img).on("load", function() {
         img.removeAttribute('data-src');
       });
     }
@@ -2493,21 +2493,35 @@ function init_posts_list() {
 <a href="posts/welcome/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["welcome"]}</script>
 <div class="metadata">
-<div class="publishedDate">March 25, 2021</div>
+<div class="publishedDate">May 28, 2022</div>
 <div class="dt-authors">
-<div class="dt-author">Meredith Rolfe</div>
+<div class="dt-author">Sean Conway</div>
 </div>
 </div>
-<div class="thumbnail">
-<img/>
-</div>
+<div class="thumbnail"></div>
 <div class="description">
 <h2>Welcome to DACSS 601</h2>
 <div class="dt-tags">
 <div class="dt-tag">welcome</div>
 </div>
-<p>Welcome to DACSS 601: Foundations of Data Science. We hope you enjoy 
-reading what we have to say!</p>
+<p>Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.</p>
+</div>
+</a>
+<a href="posts/httpsrpubscomspconway849705/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">May 28, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">Sean Conway</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="posts/httpsrpubscomspconway849705/distill-preview.png"/>
+</div>
+<div class="description">
+<h2>Test Post Round 2</h2>
+<div class="dt-tags"></div>
+<p>A new article created using the Distill format.</p>
 </div>
 </a>
 </div>
@@ -2517,7 +2531,7 @@ reading what we have to say!</p>
 <ul>
 <li>
 <a href="#category:articles">articles</a>
-<span class="category-count">(1)</span>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:welcome">welcome</a>
