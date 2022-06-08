@@ -85,6 +85,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomhongbingt910911/",
+    "title": "HW1_Tang",
+    "description": "R Markdown",
+    "author": [
+      {
+        "name": "Hongbing",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\r\nMy Code\r\n\r\n\r\nscores <- c(90,95,99,94,92,85,89,100,88,96)\r\nscores\r\n\r\n\r\n [1]  90  95  99  94  92  85  89 100  88  96\r\n\r\ngrade <-scores + 5\r\ngrade\r\n\r\n\r\n [1]  95 100 104  99  97  90  94 105  93 101\r\n\r\nMy Answer!\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-06-07T20:58:38-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -100,7 +117,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T20:57:50-04:00",
+    "last_modified": "2022-06-07T20:58:45-04:00",
     "input_file": "welcome.knit.md"
   },
   {
