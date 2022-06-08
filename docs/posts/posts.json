@@ -34,6 +34,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomhammlyssdshomework01/",
+    "title": "Homework 1",
+    "description": "This is my submission for Homework 1",
+    "author": [
+      {
+        "name": "Alyssa Hammond",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\r\n#My Code\r\n\r\n\r\n7*7 # multiplication\r\n\r\n\r\n[1] 49\r\n\r\n7*7 == 49 #boolean \r\n\r\n\r\n[1] TRUE\r\n\r\none <- c(13,14,15) #define a vector\r\none * 2 #math on the vector and display\r\n\r\n\r\n[1] 26 28 30\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-06-07T20:55:16-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -49,7 +66,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T20:44:03-04:00",
+    "last_modified": "2022-06-07T20:55:30-04:00",
     "input_file": "welcome.knit.md"
   },
   {
