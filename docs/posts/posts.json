@@ -206,6 +206,25 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomspconway909277/",
+    "title": "RMarkdown Demo",
+    "description": "Intro to RMarkdown",
+    "author": [
+      {
+        "name": "Sean Conway",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nR Markdown\nThis is an R Markdown document. Markdown is a simple formatting\nsyntax for authoring HTML, PDF, and MS Word documents. For Python users,\nRMarkdown is very similar to Jupyter Notebook.\nWhen you click the Knit button a document will be\ngenerated that includes both content as well as the output of any\nembedded R code chunks within the document. You can embed an R code\nchunk like this:\n\n\n2+2\n\n\n[1] 4\n\nThe primary purpose of RMarkdown documents is the sharing of a data\nanalysis with others.\nFor this class, we will use the distill package to\ncreate RMarkdown posts. distill is a great R\npackage for creating professional looking blog posts from RMarkdown\nfiles. Make sure you have distill installed on your\ncomputer.\nR operations\nBelow is an R code chunk. To create a code chunk, type\n“{r} to begin and to end”. We’ll use this chunk to load in\nthe ggplot2 and dplyr libraries.\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\n\nSubheadings\nThis is a subheading. To create headings with further down levels,\nsimply add more # symbols.\nSub-subheadings\nYou can write plain text in the white space.\nBut, make sure to always double space when you want to go to a new\nline.\nThis applies to headings as well.\nThis is my line.\nThis is another line.\nR Coding in RMarkdown\nYou can include as many R code chunks as you want in an RMarkdown\ndocument. Any objects you create in one code chunk will be available in\nyour environment.\nRunning code chunks\n\n\nx <- c(1,2,3,4)\nx + 2\n\n\n[1] 3 4 5 6\n\nx/3\n\n\n[1] 0.3333333 0.6666667 1.0000000 1.3333333\n\nand x is still available in our environment:\n\n\nx\n\n\n[1] 1 2 3 4\n\n\n\n1\n\n\n[1] 1\n\n2\n\n\n[1] 2\n\n2\n\n\n[1] 2\n\n3\n\n\n[1] 3\n\n2\n\n\n[1] 2\n\nRMarkdown is great for showing your work to others. Regular\nR scripts (files that end in .R) are great for\ncomputationally intensive work, but for simpler analyses that are\nnecessary to present to others, RMarkdown is hard to beat.\nDirectories in R/RMarkdown\nthe working directory of an RMarkdown file is the location of the\nfile on your computer\ncaptionhere, the file path for this script on my computer is\n‘/Users/seanconway/Teaching/DACSS_601_Su22/scripts/Rmd_Demo.Rmd’\nSay there was a data file one folder “back” on my computer. To read\nin the data, I would run:\n\n\nlibrary(readr)\nmy_data <- read_delim(\"../data.txt\")\n\n\n\nExample visualization in\nRMarkdown\nHere we use the pre-built in dataset mtcars to visualize\nthe relationship between weight and miles-per-gallon in cars.\n\n\nmtcars <- as_tibble(mtcars)\nggplot(mtcars, aes(wt,mpg))+\n  geom_point()+\n  geom_smooth(method=\"lm\")+\n  labs(x=\"weight\",\"mpg\")+\n  theme_classic()\n\n\n\n\nCode Chunk Options\nThere are various settings for code chunks. Sometimes you may want to\ninclude a computation in your script, but you don’t need readers to see\nit. For example, say I want to simulate some data, but I don’t need to\nbog down readers with my simulation code. I can use the\necho=F setting to make sure that the simulation code is\nhidden.\nBelow, I simulate some data from a linear regression model (the\ndetails of this are irrelevant). Setting echo=F will hide\nthis from the reader.\n\n\n\nNow, I’ll show the reader a visualization of this simulated data.\n\n\nggplot(dat, aes(x,y))+\n  geom_point(size=3,alpha=.75)+\n  geom_smooth(method=\"lm\")\n\n\n\n\nSometimes running an R command will output a message\nthat we don’t need the reader to see. This often happens when loading\nR packages. To avoid this, we can use the command\nmessage=F to make sure it doesn’t print the message. I’ll\ndemonstrate this when I load the BayesFactor package for\nBayesian statistical analysis (details of this package are irrelevant\nfor this course).\n\n\n# load bayes factor package\nlibrary(BayesFactor)\n\n\n\nSometimes we want to show the reader a particular R\ncommand without actually running it. For example, I might want to show\nthe reader that they should install the package dplyr to do\na set of analysis. However, I already have\ndplyr installed in my R, so there’s no need\nfor me to run the command. Here, I’ll use the eval=F\nsetting to print the command in proper R syntax\nhighlighting, but without actually running the command.\n\n\ninstall.packages(\"dplyr\")\n\n\n\nOther notes about RMarkdown\nStill include comments in code to aid others in understanding your\ncode (use the # symbol to make a comment)\nChunking output in console\nPreview settings\nKnitting\nDirectories and RMarkdown\nCode chunks for other languages?!?\nCode chunk options\necho\neval\nwarning\nmessage\n\nOutput format\ndistill::distill_article (to be used for this class)\nwhen using distill, always include a blank line between\ntexts and code chunks\n\nhtml\npdf\nMicrosoft Word document\n\nRMarkdown Cheatsheet by RStudio\nhttps://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf\n\nThe RMarkdown Cookbook by Xie, Dervieux, & Riederer (2021)\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\n\n",
+    "preview": "posts/httpsrpubscomspconway909277/distill-preview.png",
+    "last_modified": "2022-06-07T21:42:06-04:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -221,7 +240,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T21:27:05-04:00",
+    "last_modified": "2022-06-07T21:42:15-04:00",
     "input_file": "welcome.knit.md"
   },
   {
