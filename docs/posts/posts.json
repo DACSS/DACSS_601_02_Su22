@@ -68,6 +68,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscommacuriel910884/",
+    "title": "DACSS601 HW1",
+    "description": "My first markdown file published to RPubs",
+    "author": [
+      {
+        "name": "Miguel Curiel",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nMy Code\n\n\n2 + 2\n\n\n[1] 4\n\nEt Voila!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-06-07T20:57:41-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -83,7 +100,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T20:56:51-04:00",
+    "last_modified": "2022-06-07T20:57:50-04:00",
     "input_file": "welcome.knit.md"
   },
   {
