@@ -51,6 +51,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomdoctorchill08910305/",
+    "title": "Homework 1",
+    "description": "DACSS 601 -- Submission 1",
+    "author": [
+      {
+        "name": "Caleb Hill",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\r\nMy Code\r\nAfter uninstalling RStudio, re-installing, and then re-installing the\r\nknitr package, today we’re going to complete some basic arithmetic:\r\n\r\n\r\n#first, create a list of vectors\r\ndata <- c(1,3,5,7,9)\r\n\r\n#second, let's try adding them together\r\ndata + data\r\n\r\n\r\n[1]  2  6 10 14 18\r\n\r\n#third, let's attempt some multiplication\r\ndata * data\r\n\r\n\r\n[1]  1  9 25 49 81\r\n\r\n#finally, let's finish our lesson with some division\r\ndata / data\r\n\r\n\r\n[1] 1 1 1 1 1\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-06-07T20:56:39-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -66,7 +83,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T20:55:30-04:00",
+    "last_modified": "2022-06-07T20:56:51-04:00",
     "input_file": "welcome.knit.md"
   },
   {
