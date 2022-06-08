@@ -136,6 +136,25 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomspconway911971/",
+    "title": "DACS-601 HW1",
+    "description": "",
+    "author": [
+      {
+        "name": "Apoorva Saraswat",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nR Markdown\nThis is an R Markdown document. Markdown is a simple formatting\nsyntax for authoring HTML, PDF, and MS Word documents. For more details\non using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be\ngenerated that includes both content as well as the output of any\nembedded R code chunks within the document. You can embed an R code\nchunk like this:\n\n\nsummary(cars)\n\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\nIncluding Plots\nYou can also embed plots, for example:\n\n\n\nMy Code\nlibrary(tidyverse)\nggplot(data = mpg) + geom_point(mapping = aes(x = displ, y =\nhwy))\ndone\nNote that the echo = FALSE parameter was added to the\ncode chunk to prevent printing of the R code that generated the\nplot.\n\n\n\n",
+    "preview": "posts/httpsrpubscomspconway911971/distill-preview.png",
+    "last_modified": "2022-06-07T21:17:20-04:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -151,7 +170,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T21:15:01-04:00",
+    "last_modified": "2022-06-07T21:17:27-04:00",
     "input_file": "welcome.knit.md"
   },
   {
