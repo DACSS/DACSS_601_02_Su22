@@ -95,6 +95,14 @@
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Homework 1</title>
+      <dc:creator>Annabel Mendum</dc:creator>
+      <link>https://github.com/DACSS/dacss_course_website/posts/httprpubscomamendum911241</link>
+      <description>This is a sample distill article post using RMarkdown</description>
+      <guid>https://github.com/DACSS/dacss_course_website/posts/httprpubscomamendum911241</guid>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Welcome to DACSS 601</title>
       <dc:creator>Sean Conway</dc:creator>
       <link>https://github.com/DACSS/dacss_course_website/posts/welcome</link>

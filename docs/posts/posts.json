@@ -172,6 +172,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httprpubscomamendum911241/",
+    "title": "Homework 1",
+    "description": "This is a sample distill article post using RMarkdown",
+    "author": [
+      {
+        "name": "Annabel Mendum",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\r\nI will be looking at the dataset nycflights13. First, I will show a\r\ntable of the first 5 rows of data on airports, and then I will provide\r\nsome descriptive statistics about the altitudes of the airports, with\r\nthe code shown alongside. Because the distribution of altitudes is\r\nhighly skewed, the median and interquartile range are far more useful\r\nthan the mean and standard deviation, though I have included both.\r\n\r\nTable 1: Some airport data\r\nfaa\r\nname\r\nlat\r\nlon\r\nalt\r\ntz\r\ndst\r\ntzone\r\n04G\r\nLansdowne Airport\r\n41.13047\r\n-80.61958\r\n1044\r\n-5\r\nA\r\nAmerica/New_York\r\n06A\r\nMoton Field Municipal Airport\r\n32.46057\r\n-85.68003\r\n264\r\n-6\r\nA\r\nAmerica/Chicago\r\n06C\r\nSchaumburg Regional\r\n41.98934\r\n-88.10124\r\n801\r\n-6\r\nA\r\nAmerica/Chicago\r\n06N\r\nRandall Airport\r\n41.43191\r\n-74.39156\r\n523\r\n-5\r\nA\r\nAmerica/New_York\r\n09J\r\nJekyll Island Airport\r\n31.07447\r\n-81.42778\r\n11\r\n-5\r\nA\r\nAmerica/New_York\r\n\r\nMy Code\r\n\r\n\r\nnycflights13::airports %>% summarise(\r\n  mean_alt=mean(alt),\r\n  median_alt=median(alt),\r\n  iqr_alt=IQR(alt),\r\n  sd_alt=sd(alt)\r\n  )\r\n\r\n\r\n# A tibble: 1 × 4\r\n  mean_alt median_alt iqr_alt sd_alt\r\n     <dbl>      <dbl>   <dbl>  <dbl>\r\n1    1001.        473    992.  1524.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-06-07T21:21:33-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -187,7 +204,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T21:20:10-04:00",
+    "last_modified": "2022-06-07T21:21:40-04:00",
     "input_file": "welcome.knit.md"
   },
   {
