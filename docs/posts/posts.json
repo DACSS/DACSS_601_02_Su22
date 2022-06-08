@@ -102,6 +102,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomkathypaz911005/",
+    "title": "DACSS HW 1",
+    "description": "Testing RMarkdown",
+    "author": [
+      {
+        "name": "Katherine Barahona Paz",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nMy Code\n\n\ntemperatures <- c(78, 81, 92, 67, 79, 85, 83)\ntemperatures\n\n\n[1] 78 81 92 67 79 85 83\n\navg_temp <- mean(temperatures)\navg_temp \n\n\n[1] 80.71429\n\nAverage temperature for this week!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-06-07T21:01:02-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -117,7 +134,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T20:58:45-04:00",
+    "last_modified": "2022-06-07T21:01:12-04:00",
     "input_file": "welcome.knit.md"
   },
   {
