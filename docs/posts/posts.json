@@ -119,6 +119,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/httpsrpubscomspconway911968/",
+    "title": "DACSS601 HW1-RMD-FB",
+    "description": "",
+    "author": [
+      {
+        "name": "Felix Betancourt",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nMy Code\nThis is my first RMD.\n\n\n# Example of a simple calculation\n2+2\n\n\n[1] 4\n\nAnother code example\nNow let’s try another chunk\n\n\n#create variable z\nz <- 9\n#create variable y\ny <- 18\n#see it in action\nz * y\n\n\n[1] 162\n\nAnd it is ready to share!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-06-07T21:14:53-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -134,7 +151,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T21:02:52-04:00",
+    "last_modified": "2022-06-07T21:15:01-04:00",
     "input_file": "welcome.knit.md"
   },
   {
