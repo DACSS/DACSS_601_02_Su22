@@ -155,6 +155,23 @@
     "preview_height": 768
   },
   {
+    "path": "posts/httpsrpubscomshjoneshomework1/",
+    "title": "Homework One",
+    "description": "First Assignment on RMarkdown and RPubs",
+    "author": [
+      {
+        "name": "Stephanie Halbert Jones",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-07",
+    "categories": [],
+    "contents": "\nMy Code\n\n\nx <- 34\ny <- 75\nx + y\n\n\n[1] 109\n\nKeeping it simple because I’m very new to this.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-06-07T21:20:03-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to DACSS 601",
     "description": "Welcome to DACSS 601: Foundations of Data Science - Summer Session 2022, Section 02. This is the course blog, where all student posts will live.",
@@ -170,7 +187,7 @@
     ],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-06-07T21:17:27-04:00",
+    "last_modified": "2022-06-07T21:20:10-04:00",
     "input_file": "welcome.knit.md"
   },
   {
